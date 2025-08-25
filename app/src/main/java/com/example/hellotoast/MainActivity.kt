@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
 
             // jika btn toast diklik
             btnToast.setOnClickListener {
-                Toast.makeText(this@MainActivity, "Count %number", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this@MainActivity, "Count $number", Toast.LENGTH_SHORT).show()
             }
         }
     }
